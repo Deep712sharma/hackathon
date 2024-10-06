@@ -1,0 +1,26 @@
+.home-main {
+  width: 100%;
+  height: calc(100% - 25px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding: 32px;
+  font-size: 3em;
+  color: 'red';
+}
+
+.footer {
+  height: 18px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: white;
+}
